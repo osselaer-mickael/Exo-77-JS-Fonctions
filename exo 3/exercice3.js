@@ -1,7 +1,14 @@
 /* Voici un exemple de fonction retournant du texte, inspirez vous de cet exemple pour réaliser l'exercice */
+function txtInsert() {
+    return txtReturn();
+}
+
+function backgroundSet() {
+    return "magenta";
+}
 
 function txtReturn() {
-    return "monTexte";
+    return "j'aime pas le javascript";
 }
 
 
